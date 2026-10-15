@@ -1,2 +1,3 @@
 # RUDP
-RUDP for gowin
+RUDP for gowin.
+based https://github.com/hypernyan/eth_vlg
