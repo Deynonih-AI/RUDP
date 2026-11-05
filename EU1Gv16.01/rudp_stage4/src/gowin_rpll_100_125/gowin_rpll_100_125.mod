@@ -1,0 +1,32 @@
+-series GW2AR
+-device GW2AR-18
+-device_version C
+-package eLQFP144P
+-part_number GW2AR-LV18EQ144PC8/I7
+
+
+-mod_name gowin_rpll_100_125
+-file_name gowin_rpll_100_125
+-path D:/Si/Work/GEthernet/GW2AR/EU1Gv16.01/V1.0/src/gowin_rpll_100_125/
+-type PLL
+-rPll true
+-file_type vlg
+-dev_type GW2AR-18C
+-dyn_idiv_sel false
+-idiv_sel 4
+-dyn_fbdiv_sel false
+-fbdiv_sel 5
+-dyn_odiv_sel false
+-odiv_sel 4
+-dyn_da_en false
+-rst_sig true
+-rst_sig_p false
+-fclkin 100
+-clkfb_sel 0
+-en_lock true
+-clkout_bypass false
+-en_clkoutp false
+-clkoutp_bypass false
+-en_clkoutd false
+-clkoutd_bypass false
+-en_clkoutd3 false

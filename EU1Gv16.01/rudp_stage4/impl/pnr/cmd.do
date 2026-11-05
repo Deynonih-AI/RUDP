@@ -1,0 +1,17 @@
+-d D:\Si\Work\GEthernet\GW2AR\RUDP\RUDP\EU1Gv16.01\rudp_stage4\impl\gwsynthesis\rudp_gowin.vg
+-p GW2AR-18C-eLQFP144P-8
+-pn GW2AR-LV18EQ144PC8/I7
+-cst D:\Si\Work\GEthernet\GW2AR\RUDP\RUDP\EU1Gv16.01\rudp_stage4\src\eu1gv16.01.cst
+-cfg D:\Si\Work\GEthernet\GW2AR\RUDP\RUDP\EU1Gv16.01\rudp_stage4\impl\pnr\device.cfg
+-sdc D:\Si\Work\GEthernet\GW2AR\RUDP\RUDP\EU1Gv16.01\rudp_stage4\src\rudp_gowin.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

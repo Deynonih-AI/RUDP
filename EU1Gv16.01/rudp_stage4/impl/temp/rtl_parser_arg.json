@@ -1,0 +1,456 @@
+{
+    "Device": "GW2AR-18C",
+    "Files": [
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/top.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/fifo_rx_hs/fifo_rx_hs.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/fifo_tx_hs/fifo_tx_hs.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/gowin_rpll_100_125/gowin_rpll_100_125.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/gowin_rpll_psram/gowin_rpll_psram.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/gw_pll_100_25/gw_pll_100_25.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/eth_vlg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/eth_vlg_pkg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/flow_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/phy_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/arp/arp_data_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/arp/arp_tbl_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/arp/arp_vlg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/arp/arp_vlg_pkg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/arp/arp_vlg_rx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/arp/arp_vlg_table.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/arp/arp_vlg_tx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dhcp/dhcp_ctl_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dhcp/dhcp_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dhcp/dhcp_vlg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dhcp/dhcp_vlg_core.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dhcp/dhcp_vlg_pkg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dhcp/dhcp_vlg_rx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dhcp/dhcp_vlg_tx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dns/dns_ctl_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dns/dns_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dns/dns_vlg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dns/dns_vlg_core.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dns/dns_vlg_pkg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dns/dns_vlg_rx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/dns/dns_vlg_tx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/icmp/icmp_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/icmp/icmp_vlg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/icmp/icmp_vlg_pkg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/icmp/icmp_vlg_rx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/icmp/icmp_vlg_tx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/ipv4/ipv4_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/ipv4/ipv4_vlg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/ipv4/ipv4_vlg_pkg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/ipv4/ipv4_vlg_rx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/ipv4/ipv4_vlg_top.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/ipv4/ipv4_vlg_tx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/mac/mac_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/mac/mac_vlg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/mac/mac_vlg_cdc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/mac/mac_vlg_pkg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/mac/mac_vlg_rx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/mac/mac_vlg_tx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_ctl_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_data_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_rx_ctl_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_tx_ctl_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_ack.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_core.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_engine.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_fast_rtx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_ka.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_pkg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_rx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_rx_ctl.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_sack.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_seq.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_tx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_tx_add.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_tx_arb.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_tx_buf.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_tx_ctl.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_tx_info.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_tx_scan.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/tcp/tcp_vlg_tx_strm.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/udp/udp_ctl_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/udp/udp_data_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/udp/udp_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/udp/udp_vlg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/udp/udp_vlg_pkg.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/udp/udp_vlg_rx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/udp/udp_vlg_top.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/udp/udp_vlg_tx.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/udp/udp_vlg_tx_ctl.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_checksum.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_crc32.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_fifo_dc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_fifo_sc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_onehot.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_ram_dp.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_ram_sp.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_sum.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_tmr.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/eth_vlg_tx_mux.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/fifo_dc_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/fifo_sc_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/prng.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/ram_dp_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/ram_req.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/third_party/util/ram_sp_ifc.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/rudp_types.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/triple_speed_ethernet_mac/triple_speed_ethernet_mac.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/phy_status_reader.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/mac_vlg_cdc_gowin.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/psram_syn_top.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/gowin_dc_fifo/gowin_dc_fifo.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/psram_memory_interface_hs/psram_memory_interface_hs.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/rudp_core.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/cdc_sync.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/rudp_rx_frontend.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/exec_engine.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/psram_rd_prefetch.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/psram_wr_adapter.sv",
+            "Type": "verilog"
+        },
+        {
+            "Path": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/src/rudp_tx.sv",
+            "Type": "verilog"
+        }
+    ],
+    "IncludePath": [
+    ],
+    "LoopLimit": 4096,
+    "ResultFile": "D:/Si/Work/GEthernet/GW2AR/RUDP/RUDP/EU1Gv16.01/rudp_stage4/impl/temp/rtl_parser.result",
+    "Top": "top",
+    "VerilogStd": "sysv",
+    "VhdlStd": "vhdl_93"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="eLQFP144P" speed="8" partNumber="GW2AR-LV18EQ144PC8/I7"/>
+    <FileList>
+        <File path="C:/Gowin/Gowin_V1.9.12.03/Gowin_V1.9.12.03_x64/IDE/ipcore/PSRAM_HS/psram_hs_2ch/PSRAM_TOP.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.12.03/Gowin_V1.9.12.03_x64/IDE/ipcore/PSRAM_HS/psram_hs_2ch/psram_code.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="C:/Gowin/Gowin_V1.9.12.03/Gowin_V1.9.12.03_x64/IDE/ipcore/PSRAM_HS"/>
+        <Option type="include_path" value="D:/Si/Work/GEthernet/GW2AR/RUDP/rudp_stage4/psram_memory_interface_hs/temp/PSRAM_HS"/>
+        <Option type="ip_version" value="2.1"/>
+        <Option type="output_file" value="psram_memory_interface_hs.vg"/>
+        <Option type="output_template" value="psram_memory_interface_hs_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

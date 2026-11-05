@@ -1,0 +1,33 @@
+-series GW2AR
+-device GW2AR-18
+-device_version C
+-package eLQFP144P
+-part_number GW2AR-LV18EQ144PC8/I7
+
+
+-mod_name gw_pll_100_25
+-file_name gw_pll_100_25
+-path D:/Si/Work/GEthernet/GW2AR/EU1Gv16.01/V1.0/src/gw_pll_100_25/
+-type PLL
+-rPll true
+-file_type vlg
+-dev_type GW2AR-18C
+-dyn_idiv_sel false
+-idiv_sel 4
+-dyn_fbdiv_sel false
+-fbdiv_sel 1
+-dyn_odiv_sel false
+-odiv_sel 32
+-dyn_da_en true
+-rst_sig true
+-rst_sig_p false
+-fclkin 100
+-clkfb_sel 0
+-en_lock true
+-clkout_bypass false
+-clkout_ft_dir 1
+-en_clkoutp false
+-clkoutp_bypass false
+-en_clkoutd false
+-clkoutd_bypass false
+-en_clkoutd3 false

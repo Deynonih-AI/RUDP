@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="gowin_dc_fifo" Register="82" Alu="23" Lut="119" Bsram="1" Ssram="6" T_Register="82(82)" T_Alu="23(23)" T_Lut="119(119)" T_Bsram="1(1)" T_Ssram="6(6)"/>
