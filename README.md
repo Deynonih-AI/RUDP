@@ -4,6 +4,7 @@
 **English | [Русский](#русский)**
 
 ![Platform](https://img.shields.io/badge/FPGA-GOWIN%20GW2AR--18-blue)
+![Ethernet](https://img.shields.io/badge/Ethernet-100%20Mbps%20%7C%201%20Gbps-blue)
 ![HDL](https://img.shields.io/badge/HDL-SystemVerilog-orange)
 ![Sim](https://img.shields.io/badge/Simulation-QuestaSim-success)
 ![Status](https://img.shields.io/badge/status-active%20development-yellow)
@@ -15,7 +16,7 @@ A SystemVerilog implementation of an **Ethernet MAC + Reliable UDP (RUDP)** for 
 
 This repository focuses on two things:
 
-- **Ethernet MAC / RGMII** — the link between FPGA logic and an external Ethernet PHY.
+- **Ethernet MAC / RGMII** — the link between FPGA logic and an external Ethernet PHY, supporting both **100 Mbps and 1 Gbps** operation.
 - **RUDP** — a lightweight reliable transport on top of UDP, tailored for FPGA-to-host transfer of application data.
 
 The rest of the networking stack (ARP, IPv4, ICMP, DHCP, DNS, UDP) is implemented in a **third-party open-source repository** and is **not part of this codebase**. See [External dependencies](#external-dependencies).
@@ -38,6 +39,7 @@ The rest of the networking stack (ARP, IPv4, ICMP, DHCP, DNS, UDP) is implemente
 
 **Yes, if you:**
 - Build an FPGA device that must send large, reliable payloads to a host over Ethernet.
+- Need a flexible Ethernet interface supporting both 100 Mbps and 1 Gbps.
 - Want TCP-level reliability without TCP-level RTL complexity.
 - Target GOWIN GW2AR-18 (or a similar GOWIN part) and need a working, verified reference design.
 - Need to easily integrate a reliable transport alongside an existing third-party network stack.
@@ -57,9 +59,9 @@ The full stack is assembled from **two sources**: this repository (MAC + RUDP) a
 flowchart TD
     PHY["Ethernet PHY"]
     RGMII["RGMII"]
-    MAC["Ethernet MAC<br/><i>(this repository)</i>"]
-    EXT["ARP / IPv4 / ICMP<br/>UDP / DHCP / DNS<br/><i>(third_party folder)</i>"]
-    RUDP["RUDP<br/><i>(this repository)</i>"]
+    MAC["Ethernet MAC<br>100M / 1G<br>(this repository)"]
+    EXT["ARP / IPv4 / ICMP<br>UDP / DHCP / DNS<br>(third_party folder)"]
+    RUDP["RUDP<br>(this repository)"]
     APP["Application Logic"]
 
     PHY --- RGMII
@@ -76,7 +78,7 @@ flowchart TD
 Synthesized for **GOWIN GW2AR-LV18EQ144PC8/I7**.
 
 ### Measured Performance (Hardware)
-Based on the host-side test tool over a physical 100 Mbps link:
+The FPGA MAC/RGMII interface is capable of **1 Gbps**. The results below were measured using the host-side test tool over a physical **100 Mbps link**:
 - **Transfer rate:** ~53.4 Mbit/s (sustained payload) for large 4096-block transfers.
 - **Protocol Overhead:** Minimal; handles 1024-byte payloads per packet.
 - **Data Integrity:** 4096 blocks (4 MB) verified with zero scoreboard errors.
@@ -289,6 +291,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 
 ![Platform](https://img.shields.io/badge/FPGA-GOWIN%20GW2AR--18-blue)
+![Ethernet](https://img.shields.io/badge/Ethernet-100%20Mbps%20%7C%201%20Gbps-blue)
 ![HDL](https://img.shields.io/badge/HDL-SystemVerilog-orange)
 ![Sim](https://img.shields.io/badge/Simulation-QuestaSim-success)
 ![Status](https://img.shields.io/badge/status-active%20development-yellow)
@@ -298,7 +301,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 В этом репозитории находятся:
 
-- **Ethernet MAC / RGMII** — связь логики ПЛИС с внешним Ethernet PHY.
+- **Ethernet MAC / RGMII** — связь логики ПЛИС с внешним Ethernet PHY с поддержкой скоростей **100 Мбит/с и 1 Гбит/с**.
 - **RUDP** — лёгкий надёжный транспорт поверх UDP, ориентированный на передачу прикладных данных между ПЛИС и хостом.
 
 Остальная часть сетевого стека (ARP, IPv4, ICMP, DHCP, DNS, UDP) реализована в **стороннем открытом репозитории** и **в этот репозиторий не входит**. Подробнее — в разделе [Внешние зависимости](#внешние-зависимости).
@@ -319,6 +322,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 **Да, если вы:**
 - Разрабатываете FPGA-устройство, которому нужно надёжно передавать большие объёмы данных на хост по Ethernet.
+- Нужен гибкий интерфейс Ethernet с поддержкой 100 Мбит/с и 1 Гбит/с.
 - Хотите получить надёжность уровня TCP, но без сложности реализации TCP на RTL.
 - Используете GOWIN GW2AR-18 (или похожую ПЛИС) и ищете рабочий, проверенный референс.
 - Хотите легко интегрировать надёжный транспорт рядом со сторонним сетевым стеком.
@@ -338,9 +342,9 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 flowchart TD
     PHY["Ethernet PHY"]
     RGMII["RGMII"]
-    MAC["Ethernet MAC<br/><i>(этот репозиторий)</i>"]
-    EXT["ARP / IPv4 / ICMP<br/>UDP / DHCP / DNS<br/><i>(папка third_party)</i>"]
-    RUDP["RUDP<br/><i>(этот репозиторий)</i>"]
+    MAC["Ethernet MAC<br>100M / 1G<br>(этот репозиторий)"]
+    EXT["ARP / IPv4 / ICMP<br>UDP / DHCP / DNS<br>(папка third_party)"]
+    RUDP["RUDP<br>(этот репозиторий)"]
     APP["Прикладная логика"]
 
     PHY --- RGMII
@@ -358,7 +362,7 @@ flowchart TD
 
 ### Измеренная производительность (железо)
 
-По данным тестового приложения на физическом канале 100 Мбит/с:
+Интерфейс MAC/RGMII ПЛИС поддерживает скорость **1 Гбит/с**. Приведённые ниже результаты получены с помощью тестового приложения на физическом канале **100 Мбит/с**:
 - **Скорость передачи:** ~53.4 Мбит/с (устойчивая полезная нагрузка) на больших передачах (4096 блоков).
 - **Целостность данных:** 4096 блоков (4 МБ) проверены без ошибок.
 
