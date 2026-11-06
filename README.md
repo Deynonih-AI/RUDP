@@ -1,6 +1,6 @@
 # FPGA Ethernet Stack for GOWIN — with RUDP
 
-**English | [Русский](#русский)**
+**English | [Русский](#russian)**
 
 ![Platform](https://img.shields.io/badge/FPGA-GOWIN%20GW2AR--18-blue)
 ![HDL](https://img.shields.io/badge/HDL-SystemVerilog-orange)
@@ -48,22 +48,17 @@ The rest of the networking stack (ARP, IPv4, ICMP, DHCP, DNS, UDP) is implemente
 
 The full stack is assembled from **two sources**: this repository (MAC + RUDP) and the third-party repository (ARP / IPv4 / ICMP / DHCP / DNS / UDP).
 
-```text
-                         Ethernet PHY
-                              |
-                             RGMII
-                              |
-                  +-----------+-----------+
-                  |   Ethernet MAC        |   <-- this repository
-                  +-----------+-----------+
-                              |
-                  +-----------+-----------+
-                  |   ARP / IPv4 / ICMP   |   <-- third_party folder
-                  |   UDP / DHCP / DNS     |
-                  +-----------+-----------+
-                              |
-                  +-----------+-----------+
-                  |        RUDP           |   <-- this repository
-                  +-----------+-----------+
-                              |
-                      Application logic
+```mermaid
+flowchart TD
+    PHY["Ethernet PHY"]
+    RGMII["RGMII"]
+    MAC["Ethernet MAC<br/><i>(this repository)</i>"]
+    EXT["ARP / IPv4 / ICMP<br/>UDP / DHCP / DNS<br/><i>(third_party folder)</i>"]
+    RUDP["RUDP<br/><i>(this repository)</i>"]
+    APP["Application Logic"]
+
+    PHY --- RGMII
+    RGMII --- MAC
+    MAC --- EXT
+    EXT --- RUDP
+    RUDP --- APP
